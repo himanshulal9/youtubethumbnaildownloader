@@ -33,14 +33,12 @@ export default function ContactUs() {
     errors: {},
   });
 
-  //handle on change
-  const handleFormSubmit = ({ target }) => {
-    const { data } = state;
-    data[target.name] = target.value;
-    setstate({ data });
-    console.log("name", target.name, "value", target.value);
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    // const { data } = state;
   };
 
+  //handle on change
   const handleOnChange = ({ target }) => {
     const { data } = state;
     data[target.name] = target.value;
