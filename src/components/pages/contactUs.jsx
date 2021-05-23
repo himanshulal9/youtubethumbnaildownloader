@@ -35,6 +35,7 @@ export default function ContactUs() {
   const handleOnChange = ({ target }) => {
     const { data } = state;
     data[target.name] = target.value;
+    setstate({ data });
     console.log("name", target.name, "value", target.value);
   };
 
@@ -77,7 +78,7 @@ export const renderTextField = ({ label, name, state, onChange }) => (
   <ValidationTextField
     variant='outlined'
     size='small'
-    fullWidth='true'
+    fullWidth={true}
     label={label}
     name={name}
     value={state.data[name]}
@@ -85,6 +86,7 @@ export const renderTextField = ({ label, name, state, onChange }) => (
     onChange={onChange}
   />
 );
+
 export const renderTextArea = ({ label, name, state, onChange }) => (
   <TextField
     id={name}
@@ -93,7 +95,7 @@ export const renderTextArea = ({ label, name, state, onChange }) => (
     label={label}
     name={name}
     multiline
-    rowsMax={4}
+    rowsMax={8}
     value={state.data[name]}
     error={state.data[name]}
     onChange={onChange}

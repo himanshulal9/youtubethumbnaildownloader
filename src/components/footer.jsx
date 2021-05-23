@@ -32,12 +32,18 @@ const userStyles = makeStyles((theme) => ({
 
 export default function Footer() {
   const classes = userStyles();
-
+  //   <Route path='/aboutus'>
+  //   <AboutUs />
+  // </Route>
+  // <Route path='/privacyPolicy'>
+  //   <Privacy />
+  // </Route>
+  // <Route path='/contact'>
   const links = [
-    { key: "home", url: "" },
-    { key: "Privacy Policy", url: "" },
-    { key: "about us", url: "" },
-    { key: "contact us", url: "" },
+    { key: "home", url: "/" },
+    { key: "Privacy Policy", url: "/privacyPolicy" },
+    { key: "about us", url: "/aboutus" },
+    { key: "contact us", url: "/contact" },
   ];
   return (
     <Box className={classes.root}>

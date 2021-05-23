@@ -3,8 +3,6 @@ import {
   Box,
   Button,
   Card,
-  CardActionArea,
-  CardMedia,
   Grid,
   Link,
   makeStyles,
@@ -72,15 +70,15 @@ export default function DownloadLinkComponent() {
   const imageData = [
     {
       url: `https://img.youtube.com/vi/${Query}/maxresdefault.jpg`,
-      title: "HD 720p",
+      title: "FHD+ (1080p, 4K)",
     },
     {
       url: `https://img.youtube.com/vi/${Query}/sddefault.jpg`,
-      title: "HQ 480p",
+      title: "LQ 480p",
     },
     {
       url: `https://img.youtube.com/vi/${Query}/hqdefault.jpg`,
-      title: "HQ 360p",
+      title: "MQ (360p)",
     },
     {
       url: `https://img.youtube.com/vi/${Query}/mqdefault.jpg`,
