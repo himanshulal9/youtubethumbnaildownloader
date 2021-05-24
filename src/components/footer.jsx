@@ -32,13 +32,7 @@ const userStyles = makeStyles((theme) => ({
 
 export default function Footer() {
   const classes = userStyles();
-  //   <Route path='/aboutus'>
-  //   <AboutUs />
-  // </Route>
-  // <Route path='/privacyPolicy'>
-  //   <Privacy />
-  // </Route>
-  // <Route path='/contact'>
+
   const links = [
     { key: "home", url: "/" },
     { key: "Privacy Policy", url: "/privacyPolicy" },
