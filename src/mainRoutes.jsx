@@ -18,6 +18,9 @@ export default function MainRoutes() {
         <Route path='/contact'>
           <ContactUs />
         </Route>
+        <Route path='/googlea4ddf31aa552ffff.html'>
+          <>google-site-verification: googlea4ddf31aa552ffff.html</>
+        </Route>
         <Route path='/'>
           <App />
         </Route>
