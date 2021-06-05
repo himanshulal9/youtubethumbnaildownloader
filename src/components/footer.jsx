@@ -42,17 +42,18 @@ export default function Footer() {
   return (
     <Box className={classes.root}>
       <Grid container component={Box} mt={3} p={3}>
-        <Grid item xs={12} sm={5}>
+        <Grid item xs={12} sm={4}>
           <Typography variant='h5' component='h4' gutterBottom>
-            Company name
+            About us
           </Typography>
           <Typography variant='body1' gutterBottom>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
-            quasi delectus saepe ipsa expedita at, porro tenetur illo facilis
-            quia, error reiciendis a doloremque odit?
+            We provide a free youtube thumbnail downloader app as tool It is
+            very responsive and could be run on any devices,so take advantage of
+            this tool share it to your friends or family, keep Supporting
+            @youtubethumbnaildownloader.nettool.in
           </Typography>
         </Grid>
-        <Grid item xs={12} sm={7}>
+        <Grid item xs={12} sm={8}>
           <Typography variant='body1' component='h4' gutterBottom>
             Important Link
           </Typography>
