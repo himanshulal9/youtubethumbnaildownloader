@@ -15,7 +15,6 @@
     "react-dom": "^17.0.2",
     "react-download-link": "^2.3.0",
     "react-router-dom": "^5.2.0",
-    "react-router-sitemap": "^1.2.0",
     "react-scripts": "4.0.3",
     "url-parse": "^1.5.1",
     "web-vitals": "^1.1.2"
@@ -47,11 +46,5 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-es2015": "^6.24.1",
-    "babel-preset-react": "^6.24.1",
-    "babel-register": "^6.26.0",
-    "download-image": "^1.0.1"
-  }
+  "devDependencies": {}
 }

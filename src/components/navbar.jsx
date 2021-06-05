@@ -31,7 +31,7 @@ export default function Navbar() {
         </Link>
         <Typography variant='h6'>
           <Link to='/' className={classes.navlink}>
-            DownloadThumb
+            YtDownloader
           </Link>
         </Typography>
       </Toolbar>

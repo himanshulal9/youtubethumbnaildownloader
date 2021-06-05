@@ -133,7 +133,7 @@ export default function DownloadLinkComponent() {
               component='h1'
               className={classes.headerDescription}>
               We Make downloading Youtube Thumbnail Very easy with out tool ,
-              just Past the youtube video link into the box to dwnload the
+              just Past the youtube video link into the box to download the
               thumbnail of required size.
             </Typography>
           </Box>
