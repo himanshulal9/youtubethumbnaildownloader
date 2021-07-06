@@ -134,7 +134,6 @@ export default function DownloadLinkComponent() {
                 src='//www.variouscreativeformats.com/watchnew?key=ac36c5bd28963654ac3f35fee48d7d67'
                 width='100%'
                 height='90'
-                frameborder='0'
                 scrolling='no'></iframe>
             </div>
             <Typography
@@ -188,7 +187,6 @@ export default function DownloadLinkComponent() {
               src='//www.variouscreativeformats.com/watchnew?key=ac36c5bd28963654ac3f35fee48d7d67'
               width='100%'
               height='90'
-              frameborder='0'
               scrolling='no'></iframe>
           </div>
         </Grid>
