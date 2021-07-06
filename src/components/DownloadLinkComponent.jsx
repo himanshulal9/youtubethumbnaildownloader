@@ -128,6 +128,15 @@ export default function DownloadLinkComponent() {
               className={classes.headerTitle}>
               Youtube thumbnail Downloader
             </Typography>
+            <div id='idOne' style={{ width: "100%", height: "auto" }}>
+              <iframe
+                title='idOne'
+                src='//www.variouscreativeformats.com/watchnew?key=ac36c5bd28963654ac3f35fee48d7d67'
+                width='100%'
+                height='90'
+                frameborder='0'
+                scrolling='no'></iframe>
+            </div>
             <Typography
               variant='body1'
               component='h1'
@@ -173,6 +182,15 @@ export default function DownloadLinkComponent() {
               </Grid>
             </form>
           </Paper>
+          <div id='idOne' style={{ width: "100%", height: "auto" }}>
+            <iframe
+              title='idOnee'
+              src='//www.variouscreativeformats.com/watchnew?key=ac36c5bd28963654ac3f35fee48d7d67'
+              width='100%'
+              height='90'
+              frameborder='0'
+              scrolling='no'></iframe>
+          </div>
         </Grid>
       </Grid>
 

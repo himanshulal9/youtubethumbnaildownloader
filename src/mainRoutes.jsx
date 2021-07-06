@@ -2,22 +2,22 @@ import React from "react";
 import { Route, Switch } from "react-router";
 import App from "./App";
 import NotFound404Error from "./components/NotFound404Error";
-import AboutUs from "./components/pages/aboutUs";
-import ContactUs from "./components/pages/contactUs";
+import About from "./components/pages/aboutUs";
+import Contact from "./components/pages/contactUs";
 import Privacy from "./components/pages/privacy";
 
 export default function MainRoutes() {
   return (
     <div>
       <Switch>
-        <Route path='/aboutus'>
-          <AboutUs />
+        <Route path='/about'>
+          <About />
         </Route>
-        <Route path='/privacyPolicy'>
+        <Route path='/privacypolicy'>
           <Privacy />
         </Route>
         <Route path='/contact'>
-          <ContactUs />
+          <Contact />
         </Route>
         <Route exact path='/'>
           <App />

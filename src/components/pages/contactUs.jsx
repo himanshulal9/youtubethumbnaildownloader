@@ -27,7 +27,7 @@ const ValidationTextField = withStyles({
   },
 })(TextField);
 
-export default function ContactUs() {
+export default function Contact() {
   const [state, setstate] = useState({
     data: { fullName: "", email: "", message: "" },
     errors: {},

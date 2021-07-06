@@ -3,7 +3,7 @@ import React from "react";
 import { Fragment } from "react";
 import Navbar from "../navbar";
 
-export default function AboutUs() {
+export default function About() {
   return (
     <Fragment>
       <Navbar />
